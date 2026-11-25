@@ -1,3 +1,5 @@
+// Entry program: copies POST.json (the X post address) to the output
+// directory, where the make.fun gate reads it. Standard library only.
 import { copyFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 
